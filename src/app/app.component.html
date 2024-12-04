@@ -229,6 +229,14 @@
       <p>Congratulations! Your app is running. 🎉</p>
     </div>
     <div class="divider" role="separator" aria-label="Divider"></div>
+    <nav>
+      <ul>
+        <!-- <li><a routerLink="/first-component">First Component</a></li> -->
+        <li><a routerLink="/first-component/John" >First Component</a></li>
+        <li><a routerLink="/second-component">Second Component</a></li>
+      </ul>
+    </nav>
+    <router-outlet />
     <div class="right-side">
       <div class="pill-group">
         @for (item of [
@@ -333,4 +341,4 @@
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 
 
-<router-outlet />
+
